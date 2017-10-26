@@ -14,7 +14,7 @@ def ReadData(path):
     data_frame = pd.DataFrame(pd.read_csv(path))
     return data_frame
 
-path = 'D:\\文档\\暑期培训\\04--有监督学习\\数据\\watermelon2.0.csv'
+path = 'this is your dataset path'
 data = ReadData(path)
 
 #属性的list
